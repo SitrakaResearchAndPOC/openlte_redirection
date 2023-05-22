@@ -1,6 +1,7 @@
 # openlte_redirection
 
-* Documentation bastien baranoff : 
+* Documentation bastien baranoff :  
+ 
 https://pl4y.store/en/latest/Redirect_4G_to_2G.html  
 https://github.com/bbaranoff/telco_story  
 https://github.com/bbaranoff/openLTE2GSM  
