@@ -11,3 +11,4 @@ https://github.com/bbaranoff/openlte_redirection_patch
 * Documentation articles 1 et 2 :
 
 * Homemade installation :
+https://github.com/SitrakaResearchAndPOC/Readme_hacklte
