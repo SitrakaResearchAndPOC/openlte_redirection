@@ -6,7 +6,7 @@
  * [article3](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE3_CS3235-SemI-2019-20.pdf)
  * [article4](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/DEF%20CON%2024%20-%20Zhang-Shan-Forcing-Targeted-Lte-Cellphone-Into-Unsafe-Network.pdf)
  * [article5a](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/lin.pdf) [article5b](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/lte_redirection_huanglin.pdf)
- * * [article6](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Lin_Huan_-_UE_Security.pdf) 
+ * [article6](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Lin_Huan_-_UE_Security.pdf) 
 
 ## Documentation bastien baranoff :   
 * Redirect_4G_to_2G [link](https://pl4y.store/en/latest/Redirect_4G_to_2G.html) [pdf] (https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Redirect_4G_to_2G.pdf)  [videos](https://www.youtube.com/watch?v=93o9XMZXGWY)
