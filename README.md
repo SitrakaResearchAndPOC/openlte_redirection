@@ -11,7 +11,7 @@
  ## Documentations  
  * [article1](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE1_CS3235-SemI-2018-19-Projects.pdf)
  * [article2](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE2_CS3235-SemI-2018-19-Projects.pdf)
- * [article3](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE3_CS3235-SemI-2019-20.pdf)  :
+ * [article3](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE3_CS3235-SemI-2019-20.pdf)  
 
 ## Code to read :
 
