@@ -9,7 +9,7 @@
  * [article6](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Lin_Huan_-_UE_Security.pdf) 
 
 ## Documentation bastien baranoff :   
-* Redirect_4G_to_2G [link](https://pl4y.store/en/latest/Redirect_4G_to_2G.html) [pdf] (https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Redirect_4G_to_2G.pdf)  [videos](https://www.youtube.com/watch?v=93o9XMZXGWY)
+* Redirect_4G_to_2G [link](https://pl4y.store/en/latest/Redirect_4G_to_2G.html) [pdf](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Redirect_4G_to_2G.pdf)  [videos](https://www.youtube.com/watch?v=93o9XMZXGWY)
 * Hacking_4G_Redirection [link](https://pl4y.store/en/latest/Hacking_4G_Redirection.html) [pdf](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/Hacking_4G_Redirection.pdf)
 * telco_story [link](https://github.com/bbaranoff/telco_story) [fork_link](https://github.com/SitrakaResearchAndPOC/fork_telco_story)  
 * openLTE2GSM [link](https://github.com/bbaranoff/openLTE2GSM) [fork_link](https://github.com/SitrakaResearchAndPOC/fork_openLTE2GSM)  
