@@ -744,7 +744,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 * akabypass :
-``
+```
 git clone https://github.com/mgp25/OpenLTE
 ```
 ```
