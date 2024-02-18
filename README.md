@@ -587,8 +587,12 @@ ldconfig
 ```
 cd ../../..
 ```
-
-
+```
+apt-get  install net-tools
+```
+</br></br>
+FOR LIMESDR, NO MODIFICATION FOR USRP
+</br></br>
 Have a look at the [patch](https://github.com/SitrakaResearchAndPOC/fork_OpenLTE_RedirectionPatch) </br>
 In /LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc , Replace if((devs[idx-1]["type"] == "soapy")) by
 ```
@@ -615,6 +619,347 @@ For LIMESDR, replace BAND2 by LNAH
 
 # */
 ```
+
+* Redirection by Bastien Baranoff
+```
+git clone https://github.com/bbaranoff/openlte
+```
+```
+cd openlte/
+```
+```
+git checkout 4bd673b
+```
+```
+cd ..
+```
+```
+mv openlte openlte_redir
+```
+```
+zip -r openlte_redir.zip openlte_redir
+```
+```
+mv openlte_redir.zip  ../../Desktop/ltehack_backup/
+```
+```
+cd openlte_redir
+```
+```
+mkdir build && cd build/
+```
+```
+cmake ..
+```
+```
+make
+```
+```
+make install
+```
+```
+ldconfig
+```
+```
+LTE_fdd_enodeb
+```
+```
+cd ../..
+```
+
+ 
+#/* </br>
+Use the last version of Openlte with the name of attack by using :
+```
+git checkout name_of_attack
+```
+```
+Some attacks implemented by @onkarmumbrekar can be found in the different branches: </br>
+https://github.com/ImsicatcherBastienbaranoff/Advanced_LTE_ATTACK </br>
+https://drive.google.com/drive/folders/1u5bRMle3_iirDNfIEe8toGC4WDKfvkA5?usp=share_link </br>
+https://github.com/mgp25/OpenLTE </br> </br>
+
+#LTE ATTACK TYE : </br> 
+    akabypass </br>
+    attach_reject </br>
+    dos_tau_reject_dualcause </br>
+    dos_tau_reject </br>
+    malformed_detach </br>
+    numb_attack </br>
+    service_reject_on_tau </br>
+    tau_numb_attack </br> </br>
+
+More information at: https://github.com/mgp25/OpenLTE </br>
+#*/ </br>
+
+git clone https://github.com/mgp25/OpenLTE
+mv OpenLTE OpenLTE_mgp25
+zip -r OpenLTE_mgp25.zip OpenLTE_mgp25
+mv OpenLTE_mgp25.zip ../../Desktop/ltehack_backup/
+
+cd OpenLTE_mgp25/
+mkdir build
+cd build && cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+
+# /*
+Testons les autres cas, si jamais le checkout n’existe plus, il se trouve dans le drive du lien en haut
+
+Fixing problem bladerf : https://github.com/ImsicatcherBastienbaranoff/OpenLTE_Patch_AdvancedAttack
+
+# */
+ 
+
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+
+#############
+# akabypass :
+############# 
+
+git clone https://github.com/mgp25/OpenLTE
+zip -r OpenLTE.zip OpenLTE
+cd OpenLTE
+git checkout akabypass
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_akabypass
+zip -r OpenLTE_akabypass.zip OpenLTE_akabypass/
+mv OpenLTE_akabypass.zip ../../Desktop/ltehack_backup/
+cd OpenLTE_akabypass && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+ 
+#################
+# attach_reject : 
+#################
+
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout attach_reject
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_attach_reject
+zip -r OpenLTE_attach_reject.zip OpenLTE_attach_reject
+mv OpenLTE_attach_reject.zip ../../Desktop/ltehack_backup/
+cd OpenLTE_attach_reject && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+
+
+#############################
+#  dos_tau_reject_dualcause : 
+#############################
+
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout dos_tau_reject_dualcause
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_dos_tau_reject_dualcause
+zip -r OpenLTE_dos_tau_reject_dualcause.zip OpenLTE_dos_tau_reject_dualcause
+
+mv OpenLTE_dos_tau_reject_dualcause.zip ../../Desktop/ltehack_backup/
+
+cd OpenLTE_dos_tau_reject_dualcause && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+
+ 
+
+##################
+# dos_tau_reject : 
+##################
+
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout dos_tau_reject
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_dos_tau_reject
+zip -r OpenLTE_dos_tau_reject.zip OpenLTE_dos_tau_reject
+
+mv OpenLTE_dos_tau_reject.zip  ../../Desktop/ltehack_backup/
+
+cd OpenLTE_dos_tau_reject && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+ 
+
+
+####################
+# malformed_detach :
+####################
+  
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout malformed_detach 
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_malformed_detach 
+zip -r OpenLTE_malformed_detach.zip OpenLTE_malformed_detach 
+mv OpenLTE_malformed_detach.zip  ../../Desktop/ltehack_backup/
+cd OpenLTE_malformed_detach && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+
+
+
+###############
+# numb_attack :
+###############
+ 
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout numb_attack
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_numb_attack 
+zip -r OpenLTE_numb_attack.zip OpenLTE_numb_attack 
+mv OpenLTE_numb_attack.zip ../../Desktop/ltehack_backup/
+cd OpenLTE_numb_attack && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+#########################
+# service_reject_on_tau :
+#########################
+  
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout service_reject_on_tau
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_service_reject_on_tau
+zip -r OpenLTE_service_reject_on_tau.zip OpenLTE_service_reject_on_tau
+mv OpenLTE_service_reject_on_tau.zip ../../Desktop/ltehack_backup/
+
+cd OpenLTE_service_reject_on_tau && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+
+
+ 
+###################
+# tau_numb_attack :
+###################  
+
+unzip OpenLTE.zip 
+cd OpenLTE
+git checkout tau_numb_attack
+gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
+
+# Regarder la fonction : bladerf_get_timestamp 
+# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+
+# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
+# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+   
+rm -rf build/
+cd ..
+mv OpenLTE OpenLTE_tau_numb_attack
+zip -r OpenLTE_tau_numb_attack.zip OpenLTE_tau_numb_attack
+mv OpenLTE_tau_numb_attack.zip ../../Desktop/ltehack_backup/
+
+cd OpenLTE_tau_numb_attack && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+cd ../..
+ 
+
 
 
  ## Reading articles 
