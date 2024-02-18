@@ -692,35 +692,56 @@ https://github.com/mgp25/OpenLTE </br> </br>
 More information at: https://github.com/mgp25/OpenLTE </br>
 #*/ </br>
 
+```
 git clone https://github.com/mgp25/OpenLTE
+```
+```
 mv OpenLTE OpenLTE_mgp25
+```
+```
 zip -r OpenLTE_mgp25.zip OpenLTE_mgp25
+```
+```
 mv OpenLTE_mgp25.zip ../../Desktop/ltehack_backup/
-
+```
+```
 cd OpenLTE_mgp25/
+```
+```
 mkdir build
+```
+```
 cd build && cmake ..
+```
+```
 make
+```
+```
 make install
+```
+```
 ldconfig
+```
+```
 cd ../..
+```
 
 
-# /*
-Testons les autres cas, si jamais le checkout n’existe plus, il se trouve dans le drive du lien en haut
+#/* </br>
+Let's test the attack, if the checkout doesn't exist , look at drive file </br>
+Fixing problem bladerf : https://github.com/ImsicatcherBastienbaranoff/OpenLTE_Patch_AdvancedAttack </br> </br>
 
-Fixing problem bladerf : https://github.com/ImsicatcherBastienbaranoff/OpenLTE_Patch_AdvancedAttack
-
-# */
- 
-
+#*/ </br>
+ ```
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
-
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
-
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+```
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 #############
 # akabypass :
@@ -732,11 +753,14 @@ cd OpenLTE
 git checkout akabypass
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
    
 rm -rf build/
@@ -761,11 +785,13 @@ cd OpenLTE
 git checkout attach_reject
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
-
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
    
 rm -rf build/
 cd ..
@@ -790,12 +816,14 @@ cd OpenLTE
 git checkout dos_tau_reject_dualcause
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
-   
 rm -rf build/
 cd ..
 mv OpenLTE OpenLTE_dos_tau_reject_dualcause
@@ -822,11 +850,14 @@ cd OpenLTE
 git checkout dos_tau_reject
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
    
 rm -rf build/
 cd ..
@@ -853,11 +884,14 @@ cd OpenLTE
 git checkout malformed_detach 
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
    
 rm -rf build/
 cd ..
@@ -883,11 +917,14 @@ cd OpenLTE
 git checkout numb_attack
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
    
 rm -rf build/
 cd ..
@@ -910,11 +947,14 @@ cd OpenLTE
 git checkout service_reject_on_tau
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
    
 rm -rf build/
 cd ..
@@ -940,11 +980,14 @@ cd OpenLTE
 git checkout tau_numb_attack
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 
-# Regarder la fonction : bladerf_get_timestamp 
-# Puis remplacer BLADERF_MODULE_RX par BLADERF_RX
+</br>
+</br>
+#look the function : bladerf_get_timestamp </br>
+#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+</br>
+#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
-# Remplacer tous : BLADERF_TX par BLADERF_TX_X1
-# Puis Remplacer tous : BLADERF_MODULE_RX  par  BLADERF_RX_X1
    
 rm -rf build/
 cd ..
