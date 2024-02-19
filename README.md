@@ -643,7 +643,6 @@ Use the last version of Openlte with the name of attack by using :
 ```
 git checkout name_of_attack
 ```
-```
 Some attacks implemented by @onkarmumbrekar can be found in the different branches: </br>
 https://github.com/ImsicatcherBastienbaranoff/Advanced_LTE_ATTACK </br>
 https://drive.google.com/drive/folders/1u5bRMle3_iirDNfIEe8toGC4WDKfvkA5?usp=share_link </br>
