@@ -510,6 +510,13 @@ cd ../..
 ## Installing attack LTE
 * Before the attack , preparing :
 ```
+exit
+```
+Open terminal
+```
+cd src
+```
+```
 mkdir attacklte
 ```
 ```
