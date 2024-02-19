@@ -531,7 +531,6 @@ mkdir polarssl && cd polarssl && wget https://src.fedoraproject.org/repo/pkgs/po
 git clone https://github.com/ImsicatcherBastienbaranoff/polarssl && cd polarssl
 ```
 ```
-```
 tar xvzf polarssl-1.3.7-gpl.tgz  
 ```
 ```
