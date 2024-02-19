@@ -113,44 +113,6 @@ cd ../..
 /usr/local/lib/uhd/utils/uhd_images_downloader.py
 ```
 
-## Installing SoapySDR
-```
-git clone https://github.com/pothosware/SoapySDR
-```
-```
-cd SoapySDR/
-```
-```
-git checkout f722f9ce5b629c3c44401a9bf628b3f8e67a9695
-```
-```
-cd ..
-```
-```
-zip -r SoapySDR.zip SoapySDR/
-```
-```
-mv SoapySDR.zip ../../Desktop/ltehack_backup 
-```
-```
-cd SoapySDR && mkdir build && cd build
-```
-```
-cmake ..
-```
-```
-make
-```
-```
-make install
-```
-```
-ldconfig
-```
-```
-cd ../..
-```
-
 ## Installing BladeRF
 ```
 git clone https://github.com/nuand/BladeRF
@@ -286,24 +248,7 @@ make install
 ldconfig
 ```
 ```
-cd ../../..
-```
-## Installing GRC3.7
-#Installing HackRF Software — HackRF documentation </br>
-#How to install hackrf on Ubuntu 20.04 (Focal Fossa)? (devmanuals.net) </br>
-```
-mkdir grc37
-```
-```
-cd grc37
-```
-
-#/* </br>
-#https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux </br>
-#*/ </br>
-#apt-get install python-zmq </br>
-```
-sudo apt-get -y install autoconf automake build-essential ccache cmake cpufrequtils doxygen ethtool fort77 g++ gir1.2-gtk-3.0 git gobject-introspection gpsd gpsd-clients inetutils-tools libasound2-dev libboost-all-dev libcomedi-dev libcppunit-dev libfftw3-bin libfftw3-dev libfftw3-doc libfontconfig1-dev libgmp-dev libgps-dev libgsl-dev liblog4cpp5-dev libncurses5 libncurses5-dev libpulse-dev libqt5opengl5-dev libqwt-qt5-dev libsdl1.2-dev libtool libudev-dev libusb-1.0-0 libusb-1.0-0-dev libusb-dev libxi-dev libxrender-dev libzmq3-dev libzmq5 ncurses-bin python3-cheetah python3-click python3-click-plugins python3-click-threading python3-dev python3-docutils python3-gi python3-gi-cairo python3-gps python3-lxml python3-mako python3-numpy python3-numpy-dbg python3-opengl python3-pyqt5 python3-requests python3-scipy python3-setuptools python3-six python3-sphinx python3-yaml python3-zmq python3-ruamel.yaml swig wget
+cd ../..
 ```
 ## Installing HackRF
 ```
@@ -450,13 +395,32 @@ make install
 ldconfig
 ```
 ```
-cd ../..
+cd ../../..
 ```
 Test :
 ```
 uhd_usrp_probe
 ```
 #UNPLUG HACKRF
+
+
+## Installing GRC3.7
+#Installing HackRF Software — HackRF documentation </br>
+#How to install hackrf on Ubuntu 20.04 (Focal Fossa)? (devmanuals.net) </br>
+```
+mkdir grc37
+```
+```
+cd grc37
+```
+
+#/* </br>
+#https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux </br>
+#*/ </br>
+#apt-get install python-zmq </br>
+```
+sudo apt-get -y install autoconf automake build-essential ccache cmake cpufrequtils doxygen ethtool fort77 g++ gir1.2-gtk-3.0 git gobject-introspection gpsd gpsd-clients inetutils-tools libasound2-dev libboost-all-dev libcomedi-dev libcppunit-dev libfftw3-bin libfftw3-dev libfftw3-doc libfontconfig1-dev libgmp-dev libgps-dev libgsl-dev liblog4cpp5-dev libncurses5 libncurses5-dev libpulse-dev libqt5opengl5-dev libqwt-qt5-dev libsdl1.2-dev libtool libudev-dev libusb-1.0-0 libusb-1.0-0-dev libusb-dev libxi-dev libxrender-dev libzmq3-dev libzmq5 ncurses-bin python3-cheetah python3-click python3-click-plugins python3-click-threading python3-dev python3-docutils python3-gi python3-gi-cairo python3-gps python3-lxml python3-mako python3-numpy python3-numpy-dbg python3-opengl python3-pyqt5 python3-requests python3-scipy python3-setuptools python3-six python3-sphinx python3-yaml python3-zmq python3-ruamel.yaml swig wget
+```
 ```
 git clone https://github.com/gnuradio/gnuradio
 ```
