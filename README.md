@@ -1202,6 +1202,19 @@ cd ../..
 [videos2](https://www.youtube.com/watch?v=GmPN6CblvaQ) [videos3](https://www.youtube.com/shorts/j5cs28u4DAo) [videos4](https://www.youtube.com/watch?v=9_qWjXa5FBI&pp=ygUVYmFzdGllbiBiYXJhbm9mZiArIDRH)  [videos5](https://www.youtube.com/watch?v=93o9XMZXGWY)
 [videos6](https://www.youtube.com/watch?v=XvdtCdNAPBY&t=411s)  
 
+## More documentations : 
+https://securityaffairs.com/53180/hacking/hacking-lte-networks.html
+https://nse.digital/pages/guides/Wireless/lte-hacking.html
+https://thecybersecurityman.com/2018/07/05/the-recent-4g-lte-network-vulnerabilities-and-attacks/
+https://sec.sorint.it/en/2018/03/07/4g-lte-attack-2/
+https://www.sharetechnote.com/html/Communication_CellularSecurity.html
+https://syssec.kaist.ac.kr/pub/2019/kim_sp_2019.pdf
+
+## More videos
+https://www.youtube.com/watch?v=DEeOFE_DreU
+https://www.youtube.com/watch?v=slnc98KYLmw
+wirelessoffensive in youtube
+
 ## Homemade installation :  
 * https://github.com/SitrakaResearchAndPOC/Readme_hacklte/blob/main/hacklte_readme.txt  
 * https://github.com/SitrakaResearchAndPOC/Readme_hacklte
