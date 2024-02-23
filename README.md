@@ -709,7 +709,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 * akabypass :
@@ -734,7 +734,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 ```   
@@ -789,7 +789,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 ```
@@ -846,7 +846,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 ```
 rm -rf build/
@@ -902,7 +902,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
    
@@ -959,7 +959,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 ```   
@@ -1016,7 +1016,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 
@@ -1073,7 +1073,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 
@@ -1133,7 +1133,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 #look the function : bladerf_get_timestamp </br>
 #Replace BLADERF_MODULE_RX by BLADERF_RX </br>
 </br>
-#Replace all : BLADERF_TX by BLADERF_TX_X1 </br>
+#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
 #Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
 
 ```   
