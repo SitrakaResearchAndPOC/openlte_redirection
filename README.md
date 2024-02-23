@@ -1203,16 +1203,16 @@ cd ../..
 [videos6](https://www.youtube.com/watch?v=XvdtCdNAPBY&t=411s)  
 
 ## More documentations : 
-https://securityaffairs.com/53180/hacking/hacking-lte-networks.html
-https://nse.digital/pages/guides/Wireless/lte-hacking.html
-https://thecybersecurityman.com/2018/07/05/the-recent-4g-lte-network-vulnerabilities-and-attacks/
-https://sec.sorint.it/en/2018/03/07/4g-lte-attack-2/
-https://www.sharetechnote.com/html/Communication_CellularSecurity.html
-https://syssec.kaist.ac.kr/pub/2019/kim_sp_2019.pdf
+https://securityaffairs.com/53180/hacking/hacking-lte-networks.html </br>
+https://nse.digital/pages/guides/Wireless/lte-hacking.html </br>
+https://thecybersecurityman.com/2018/07/05/the-recent-4g-lte-network-vulnerabilities-and-attacks/ </br>
+https://sec.sorint.it/en/2018/03/07/4g-lte-attack-2/ </br>
+https://www.sharetechnote.com/html/Communication_CellularSecurity.html </br>
+https://syssec.kaist.ac.kr/pub/2019/kim_sp_2019.pdf </br>
 
 ## More videos
-https://www.youtube.com/watch?v=DEeOFE_DreU
-https://www.youtube.com/watch?v=slnc98KYLmw
+https://www.youtube.com/watch?v=DEeOFE_DreU </br>
+https://www.youtube.com/watch?v=slnc98KYLmw </br>
 wirelessoffensive in youtube
 
 ## Homemade installation :  
