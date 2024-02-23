@@ -577,7 +577,7 @@ For LIMESDR, replace BAND2 by LNAH
 
              usrp->set_rx_gain(rx_gain);
 
--            usrp->set_tx_antenna("BAND2");
++            usrp->set_tx_antenna("BAND2");
 
 +           usrp->set_rx_antenna("LNAH");
 
