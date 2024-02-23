@@ -708,6 +708,7 @@ gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 </br>
 #look the function : bladerf_get_timestamp </br>
 #Replace 
+
 ```
 BLADERF_MODULE_RX
 ```
@@ -718,6 +719,7 @@ BLADERF_RX
 </br>
 </br>
 #Replace all : 
+
 ```
 BLADERF_MODULE_TX  
 ```
@@ -727,6 +729,7 @@ BLADERF_TX_X1
 ```
 </br>
 #Replace all : 
+
 ```
 BLADERF_MODULE_RX
 ```
