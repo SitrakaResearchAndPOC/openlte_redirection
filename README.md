@@ -701,16 +701,40 @@ Let's test the attack, if the checkout doesn't exist , look at drive file </br>
 Fixing problem bladerf : https://github.com/ImsicatcherBastienbaranoff/OpenLTE_Patch_AdvancedAttack </br> </br>
 
 #*/ </br>
- ```
+```
 gedit LTE_fdd_enodeb/src/LTE_fdd_enb_radio.cc
 ```
 </br>
 </br>
 #look the function : bladerf_get_timestamp </br>
-#Replace BLADERF_MODULE_RX by BLADERF_RX </br>
+#Replace 
+```
+BLADERF_MODULE_RX
+```
+by 
+```
+BLADERF_RX 
+```
 </br>
-#Replace all : BLADERF_MODULE_TX  by  BLADERF_TX_X1 </br>
-#Replace all : BLADERF_MODULE_RX  by  BLADERF_RX_X1 </br> </br>
+</br>
+#Replace all : 
+```
+BLADERF_MODULE_TX  
+```
+by  
+```
+BLADERF_TX_X1 
+```
+</br>
+#Replace all : 
+```
+BLADERF_MODULE_RX
+```
+by
+```
+BLADERF_RX_X1 
+```
+</br> </br>
 
 * akabypass :
 ```
