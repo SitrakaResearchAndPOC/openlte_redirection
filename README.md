@@ -2,6 +2,7 @@
 Tracking are update reject is 9 (IDENTITY CANNOT DERIVED BY NETWORK) </br>
 Service attach reject for redirection : 2 (IMSI Unkown in HLR) or 17 (Network failure or user busy) </br>
 Service attach reject for Dos : 3,7,8,9,14 [code](https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/ArticleLTE1_CS3235-SemI-2018-19-Projects.pdf) </br>
+Service attach reject without denied of service : 15 (No suitable cells in this area)
 
 ## Installation : 
 ## FIRST STEP INSTALLING ALL COMMONS DRIVERS
