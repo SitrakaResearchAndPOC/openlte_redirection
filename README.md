@@ -687,7 +687,7 @@ https://github.com/ImsicatcherBastienbaranoff/Advanced_LTE_ATTACK </br>
 https://drive.google.com/drive/folders/1u5bRMle3_iirDNfIEe8toGC4WDKfvkA5?usp=share_link </br>
 https://github.com/mgp25/OpenLTE </br> </br>
 
-#LTE ATTACK TYE : </br> 
+#LTE ATTACK TYPE : </br> 
     akabypass </br>
     attach_reject </br>
     dos_tau_reject_dualcause </br>
