@@ -16,7 +16,7 @@ Service attach reject without denied of service : 15 (No suitable cells in this 
 <img src="https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/schematic_imsicatcher.png" width="500px" align="center">
 
 * IMSI-Catcher for programmer with modification but with denied of service and redirection
-<img src="https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/schematic_imsicatcherdosredirection.png" width="500px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/openlte_redirection/blob/main/schematic_imsicatcherdosredirection2.png" width="500px" align="center">
 
 ## Installation : 
 ## FIRST STEP INSTALLING ALL COMMONS DRIVERS
